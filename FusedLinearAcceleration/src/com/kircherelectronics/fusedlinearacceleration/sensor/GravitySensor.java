@@ -131,7 +131,7 @@ public class GravitySensor implements SensorEventListener
 	 * @param observer
 	 *            The observer to be removed.
 	 */
-	public void removeGravityObserver(AccelerationSensorObserver observer)
+	public void removeGravityObserver(GravitySensorObserver observer)
 	{
 		int i = observersAcceleration.indexOf(observer);
 		if (i >= 0)

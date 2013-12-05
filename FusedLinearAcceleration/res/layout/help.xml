@@ -59,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="Gyro Linear Acceleration is intended to provide linear acceleration measurements for devices that are equiped with a gyroscope. Linear acceleration is the acceleration of the device with the gravity of earth subtracted. Another way of thinking about it is the acceleration of the device regardless of the tilt of the device."
+                android:text="Fused Linear Acceleration is intended to provide linear acceleration measurements for devices that are equiped with a gyroscope. Linear acceleration is the acceleration of the device with the gravity of earth subtracted. Another way of thinking about it is the acceleration of the device regardless of the tilt of the device."
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
             <TextView
@@ -76,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="Gyro Linear Acceleration is useful for understanding how sensor fusions for determining linear acceleration are used and how well they work."
+                android:text="Fused Linear Acceleration is useful for understanding how sensor fusions for determining linear acceleration are used and how well they work."
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
             <TextView
@@ -93,7 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="Gyro Linear Acceleration fuses the acceleration sensor with the gyroscope sensor to provide an estimate of the linear acceleration of the device. The gyroscope sensor is used to measure the orientation of the device and then provide tilt compensations for the acceleration sensor."
+                android:text="Fused Linear Acceleration fuses the acceleration and magnetic sensor with the gyroscope sensor to provide an estimate of the linear acceleration of the device. The gyroscope sensor is used to measure the orientation of the device along with the acceleration sensor and mangetic sensor. Two orientation estimations are then fused together via a complementary filter. This final orientation estimation then provides tilt compensations for the acceleration sensor."
                 android:textAppearance="?android:attr/textAppearanceSmall" />
         </LinearLayout>
     </ScrollView>
