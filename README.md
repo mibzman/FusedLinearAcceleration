@@ -22,7 +22,7 @@ Most Android devices are equipped with a magnetic sensor which is also capable o
 Fused Linear Acceleration uses the magnetic, gyroscope and acceleration sensors in an effort to create the most accurate and reliable estimation of linear acceleration possible.
 
 Features:
-* Reliably estimate linear accelertion for most applications
+* Reliably estimate linear acceleration for most applications
 * Plot linear acceleration in real-time
 * Log linear acceleration to a .CSV file
 * Compare Fused Linear Acceleration to other implementations, especially those in the Android API
