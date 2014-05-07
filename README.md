@@ -1,6 +1,8 @@
 FusedLinearAcceleration
 =======================
 
+![](http://www.kircherelectronics.com/bundles/keweb/css/images/fused_linear_acceleration_phone_graphic.png?raw=true)
+
 Fused Linear Acceleration provides a working code example and Android application that demonstrates how to fuse the acceleration, gyroscope and magnetic sensors to provide a reliable measurement of linear acceleration. Fused Linear Acceleration relies on the gyroscope and magnetic sensors to determine the tilt of the device so the gravity component of the acceleration can be subtracted from the signal. The linear acceleration measurement is not skewed by peroids of actual linear acceleration (i.e, accelerating in a vehicle) unlike a low-pass filter or complementary filter implementation. While this example is implemented with Android/Java, the jist of the algorithm can be applied to almost any hardware/language combination to determine linear acceleration.
 
 Linear Acceleration:
@@ -18,3 +20,21 @@ Sensor fusions take measurements from multiple sensors and fuse them together to
 Most Android devices are equipped with a magnetic sensor which is also capable of measuring the tilt of the device and does not require the use of a complimentary filter or low-pass filter. This makes using the magnetic and acceleration sensor fusion ideal as it is not subject to being skewed by peroids of linear acceleration (unlike a complimentary filter) and it is extremely responsive (unlike a low-pass filter).
 
 Fused Linear Acceleration uses the magnetic, gyroscope and acceleration sensors in an effort to create the most accurate and reliable estimation of linear acceleration possible.
+
+Features:
+* Reliably estimate linear accelertion for most applications
+* Plot linear acceleration in real-time
+* Log linear acceleration to a .CSV file
+* Compare Fused Linear Acceleration to other implementations, especially those in the Android API
+
+Useful Links:
+
+* [Fused Linear Acceleration Homepage](http://www.kircherelectronics.com/fusedlinearacceleration/fusedlinearacceleration)
+* [Fused Linear Acceleration Community](http://kircherelectronics.com/forum/viewforum.php?f=10)
+* [Download Fused Linear Acceleration from Google Play](https://play.google.com/store/apps/details?id=com.kircherelectronics.fusedlinearacceleration)
+
+Written by [Kircher Electronics](https://www.kircherelectronics.com)
+
+
+
+
