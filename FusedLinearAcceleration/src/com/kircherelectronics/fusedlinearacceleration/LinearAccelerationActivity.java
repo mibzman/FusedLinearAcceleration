@@ -43,8 +43,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.androidplot.xy.XYPlot;
-import com.kircherelectronics.fusedlinearacceleration.gauge.GaugeAccelerationFlat;
-import com.kircherelectronics.fusedlinearacceleration.gauge.GaugeRotationFlat;
+import com.kircherelectronics.fusedlinearacceleration.gauge.GaugeAcceleration;
+import com.kircherelectronics.fusedlinearacceleration.gauge.GaugeRotation;
 import com.kircherelectronics.fusedlinearacceleration.plot.DynamicPlot;
 import com.kircherelectronics.fusedlinearacceleration.plot.PlotColor;
 import com.kircherelectronics.fusedlinearacceleration.sensor.AccelerationSensor;
@@ -89,16 +89,16 @@ public class LinearAccelerationActivity extends Activity implements Runnable,
 	private float zoom = 1.2f;
 
 	// The Acceleration Gauge
-	private GaugeRotationFlat gaugeAccelerationTilt;
+	private GaugeRotation gaugeAccelerationTilt;
 
 	// The LPF Gauge
-	private GaugeRotationFlat gaugeLinearAccelTilt;
+	private GaugeRotation gaugeLinearAccelTilt;
 
 	// The Acceleration Gauge
-	private GaugeAccelerationFlat gaugeAcceleration;
+	private GaugeAcceleration gaugeAcceleration;
 
 	// The LPF Gauge
-	private GaugeAccelerationFlat gaugeLinearAcceleration;
+	private GaugeAcceleration gaugeLinearAcceleration;
 
 	// Icon to indicate logging is active
 	private ImageView iconLogger;
@@ -164,8 +164,16 @@ public class LinearAccelerationActivity extends Activity implements Runnable,
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_acceleration);
 
-		View view = findViewById(R.id.scroll_view);
+		View view = findViewById(R.id.plot_layout);
 		view.setOnTouchListener(this);
+		
+		TextView accelerationLable = (TextView) view
+				.findViewById(R.id.label_acceleration_name_0);
+		accelerationLable.setText("Acceleration");
+
+		TextView lpfLable = (TextView) view
+				.findViewById(R.id.label_acceleration_name_1);
+		lpfLable.setText("Fused");
 
 		// Create the graph plot
 		XYPlot plot = (XYPlot) findViewById(R.id.plot_sensor);
@@ -372,11 +380,11 @@ public class LinearAccelerationActivity extends Activity implements Runnable,
 	 */
 	private void initGauges()
 	{
-		gaugeAccelerationTilt = (GaugeRotationFlat) findViewById(R.id.gauge_acceleration_tilt);
-		gaugeLinearAccelTilt = (GaugeRotationFlat) findViewById(R.id.gauge_linear_acceleration_tilt);
+		gaugeAccelerationTilt = (GaugeRotation) findViewById(R.id.gauge_rotation_0);
+		gaugeLinearAccelTilt = (GaugeRotation) findViewById(R.id.gauge_rotation_1);
 
-		gaugeAcceleration = (GaugeAccelerationFlat) findViewById(R.id.gauge_acceleration);
-		gaugeLinearAcceleration = (GaugeAccelerationFlat) findViewById(R.id.gauge_linear_acceleration);
+		gaugeAcceleration = (GaugeAcceleration) findViewById(R.id.gauge_acceleration_0);
+		gaugeLinearAcceleration = (GaugeAcceleration) findViewById(R.id.gauge_acceleration_1);
 	}
 
 	/**

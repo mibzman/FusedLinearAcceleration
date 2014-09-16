@@ -10,5 +10,6 @@
     <string name="sensor_name">Sensor</string>
     <string name="log_data_label">Log Data</string>
     <string name="filter_help">Help</string>
+    <string name="input_name">Input</string>
 
 </resources>
