@@ -1,0 +1,149 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/Gunna/Fused-Linear-Acceleration/app/build/intermediates/res/merged/debug/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Gunna/Fused-Linear-Acceleration/app/src/main/res/values-sw720dp-land/dimens.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "205",
+                        "endColumns": "58",
+                        "endOffsets": "259"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Gunna/Fused-Linear-Acceleration/app/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Gunna/Fused-Linear-Acceleration/app/src/main/res/values-v14/styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "225",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "373"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Gunna/Fused-Linear-Acceleration/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Gunna/Fused-Linear-Acceleration/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "19,20",
+                        "startColumns": "4,4",
+                        "startOffsets": "811,869",
+                        "endColumns": "57,55",
+                        "endOffsets": "864,920"
+                    }
+                },
+                {
+                    "source": "/Users/Gunna/Fused-Linear-Acceleration/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "31,38",
+                        "startColumns": "4,4",
+                        "startOffsets": "1443,1734",
+                        "endLines": "37,40",
+                        "endColumns": "12,12",
+                        "endOffsets": "1729,1889"
+                    }
+                },
+                {
+                    "source": "/Users/Gunna/Fused-Linear-Acceleration/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,7,13,16,10,19,5,11,14,8,17,6,12,15,9,18,3",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "102,235,513,653,374,788,145,421,559,280,700,191,468,607,328,745,59",
+                        "endColumns": "41,43,44,45,45,42,44,45,46,46,43,42,43,44,44,41,41",
+                        "endOffsets": "139,274,553,694,415,826,185,462,601,322,739,229,507,647,368,782,96"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,97,141,186,232,278,321,366,412,459,506,550,593,637,682,727,769",
+                        "endColumns": "41,43,44,45,45,42,44,45,46,46,43,42,43,44,44,41,41",
+                        "endOffsets": "92,136,181,227,273,316,361,407,454,501,545,588,632,677,722,764,806"
+                    }
+                },
+                {
+                    "source": "/Users/Gunna/Fused-Linear-Acceleration/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "4,5,3,7,11,8,6,12,10,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "117,176,56,272,484,337,229,529,432,385",
+                        "endColumns": "58,52,60,64,44,47,42,44,51,46",
+                        "endOffsets": "171,224,112,332,524,380,267,569,479,427"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24,25,26,27,28,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "925,984,1037,1098,1163,1208,1256,1299,1344,1396",
+                        "endColumns": "58,52,60,64,44,47,42,44,51,46",
+                        "endOffsets": "979,1032,1093,1158,1203,1251,1294,1339,1391,1438"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Gunna/Fused-Linear-Acceleration/app/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Gunna/Fused-Linear-Acceleration/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "182",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "316"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        }
+    ]
+}

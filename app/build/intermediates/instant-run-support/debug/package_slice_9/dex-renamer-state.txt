@@ -1,0 +1,4 @@
+#Fri Apr 06 16:28:34 BRT 2018
+base.0=/Users/Gunna/Fused-Linear-Acceleration/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex
