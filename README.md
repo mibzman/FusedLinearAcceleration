@@ -1,6 +1,18 @@
 FusedLinearAcceleration
 =======================
 
+# Note: I did not write this.
+
+As far as I can tell I didn't know how to fork a repo in high school, so I cloned and re-uploaded this from another repo.  
+
+It looks a lot like https://github.com/rmakanza/GyroLinearAcceleration.  
+
+For more android linear acceleration projects check out https://github.com/KalebKE and https://github.com/rmakanza.
+
+---
+
+# Old Readme:
+
 ![](http://www.kircherelectronics.com/bundles/keweb/css/images/fused_linear_acceleration_phone_graphic.png?raw=true)
 
 Fused Linear Acceleration provides a working code example and Android application that demonstrates how to fuse the acceleration, gyroscope and magnetic sensors to provide a reliable measurement of linear acceleration. Fused Linear Acceleration relies on the gyroscope and magnetic sensors to determine the tilt of the device so the gravity component of the acceleration can be subtracted from the signal. The linear acceleration measurement is not skewed by peroids of actual linear acceleration (i.e, accelerating in a vehicle) unlike a low-pass filter or complementary filter implementation. While this example is implemented with Android/Java, the jist of the algorithm can be applied to almost any hardware/language combination to determine linear acceleration.
